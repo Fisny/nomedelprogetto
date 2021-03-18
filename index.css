@@ -1,0 +1,126 @@
+
+/* inizio */
+
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url('background.jpg');
+  background-size: cover;
+}
+
+.Container {
+	background-color: rgba(0, 0, 0, 0.5);
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 600px;
+	margin-top: 50px;
+	border-radius: 15px;
+}
+
+header{
+	text-align: center;
+	color: lime;
+}
+
+.contlogo img{
+	margin-top: 25px;
+	width: 20%;
+}
+
+.divinput{
+	margin-top: 10px;
+	background-color: lime;
+	padding: 10px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+/* monopattino gino */
+
+main{
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10%;
+	width: 500px;
+	height: 90px;
+}
+
+.gino{
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+}
+
+main > span{
+	color: white;
+}
+
+.yellow{
+	margin-top: 5px;
+	border-radius: 15px;
+	background-color: yellow;
+	width: 50%;
+	height: 25px;
+}
+
+
+/* monopattino mike */
+
+nav{
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 10%;
+	width: 500px;
+	height: 90px;
+}
+
+.mike{
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+}
+
+nav > span{
+	color: white;
+}
+
+.green{
+	margin-top: 5px;
+	border-radius: 15px;
+	background-color: lime;
+	width: 100%;
+	height: 25px;
+}
+
+/* monopattino fede */
+
+footer{
+
+	position: absolute;
+	margin-top: 220px;
+	margin-left: 10%;
+	width: 500px;
+	height: 90px;
+}
+
+.fede{
+	display: inline-block;
+	font-weight: bold;
+	color: white;
+}
+
+footer > span{
+	color: white;
+}
+
+.red{
+	margin-top: 5px;
+	border-radius: 15px;
+	background-color: red;
+	width: 25%;
+	height: 25px;
+}
